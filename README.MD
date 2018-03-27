@@ -1,4 +1,4 @@
-#Phonebook#
+# Phonebook
 ---
 Tech stack: Java 8, Spring Boot, Spring MVC, Spring Data, Hibernate, MySQL, JSP
 ---
