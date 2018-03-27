@@ -14,7 +14,7 @@ public class MainController {
     }
 
     @RequestMapping("")
-    public String loginPage(Model model) {
+    public String loginPage() {
         return "index";
     }
 

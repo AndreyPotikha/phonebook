@@ -11,13 +11,9 @@
 	<name>phonebook</name>
 	<description>Demo project for Spring Boot</description>
 
-	<!--<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.0.0.RELEASE</version>
-		<relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;
-	</parent>-->
-
+	<developers><developer>
+		<name>Potikha Andrey</name>
+	</developer></developers>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -37,10 +33,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<!--<dependency>
-			<groupId>org.springframework.session</groupId>
-			<artifactId>spring-session-core</artifactId>
-		</dependency>-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -50,8 +42,8 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<!--<scope>runtime</scope>-->
-			<version>6.0.6</version>
+			<scope>runtime</scope>
+			<!--<version>6.0.6</version>-->
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -71,7 +63,6 @@
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
-			<!--<scope>provided</scope>-->
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -81,12 +72,6 @@
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
 		</dependency>
-		<!--<dependency>
-			<groupId>org.eclipse.jdt.core.compiler</groupId>
-			<artifactId>ecj</artifactId>
-			<version>4.6.1</version>
-			<scope>provided</scope>
-		</dependency>-->
 	</dependencies>
 
 	<build>
