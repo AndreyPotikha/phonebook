@@ -1,7 +1,6 @@
 package com.example.phonebook.controller;
 
 import com.example.phonebook.model.User;
-import com.example.phonebook.repository.UserRepository;
 import com.example.phonebook.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
