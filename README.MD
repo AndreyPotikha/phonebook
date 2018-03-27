@@ -14,6 +14,7 @@ Program functions:
 DB:
 > MySQL. To create all necessary tables and make test contacts in them - run the sql query (path - /home/andrey/IdeaProjects/phonebook/src/main/resources/sql/dump.sql)
 > Or run this code 
+
 <-- MySQL dump 10.13  Distrib 5.7.21, for Linux (x86_64)
  --
  -- Host: 127.0.0.1    Database: phonebook
